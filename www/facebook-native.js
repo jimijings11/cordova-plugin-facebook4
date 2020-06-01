@@ -43,7 +43,7 @@ exports.logout = function logout (s, f) {
 
 exports.api = function api (graphPath, permissions, s, f) {
   permissions = permissions || []
-  exec(s, f, 'FacebookConnectPlugin', 'graphApi', [graphPath, permissions])
+  exec(s, f, 'FacebookConnectPlugin', 'api', [graphPath, permissions])
 }
 
 exports.getDeferredApplink = function (s, f) {

@@ -19,7 +19,7 @@ interface FacebookConnectPlugin {
     checkHasCorrectPermissions(permissions:[string], onSuccess: (dict) => void,
     onError: (err: string) => void):void;
     logout(onSuccess: (response) => void, onError: (err: string) => void):void;
-    graphApi(path:string,permissions:[string], onSuccess: (dict) => void,
+    api(path:string,permissions:[string], onSuccess: (dict) => void,
     onError: (err: string) => void):void;
     showDialog(options:ShowDialogOptions, onSuccess: (dict) => void,
     onError: (err: string) => void):void;
