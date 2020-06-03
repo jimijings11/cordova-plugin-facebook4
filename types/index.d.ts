@@ -30,7 +30,7 @@ interface FacebookConnectPlugin {
 }
 
 interface ShowDialogOptions {
-    name:string;
+    method:string;
     message:string;
     caption:string;
     description:string;
